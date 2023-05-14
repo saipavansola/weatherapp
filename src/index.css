@@ -1,0 +1,50 @@
+.app {
+  background-image: url("https://wallpapercave.com/wp/AiUUrs6.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+}
+
+.search{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  border: 3px solid transparent;
+  width: 300px;
+  margin-left: 40%;
+  height: 200px;
+  border-radius: 15px;
+}
+.input-value{
+  border-radius: 10px;
+  height: 30px;
+  border-color: aliceblue;
+  padding: 5px;
+}
+
+.container{
+  background-color: transparent;
+  width: 500px;
+  color: white;
+  margin-left: 35%;
+  text-align: center;
+  border: 2px solid aliceblue;
+  border-radius: 15px;
+}
+
+.temp-data{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.city-name{
+  text-decoration: underline;
+}
+
+.feels{
+  display: flex;
+  justify-content: space-around;
+}
