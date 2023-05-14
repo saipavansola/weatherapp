@@ -7,7 +7,7 @@ function App() {
   const[country,setCountry]=useState('India')
   const[state,setState]=useState("Telangana")
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location},${state},${country}&units=metric&appid=895284fb2d2c50a520ea537456963d9c`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location},${state}${country}&units=metric&appid=895284fb2d2c50a520ea537456963d9c`
 
   const searchLocation = () => {
       axios.get(url).then((response) => {
